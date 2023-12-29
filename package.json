@@ -1,0 +1,14 @@
+{
+  "name": "lugar",
+  "version": "1.0.0",
+  "description": "Luger Landing Page Using Tailwind Css",
+  "main": "index.js",
+  "author": "Md Faras Uddin",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind-input.css -o ./public/css/tailwind.css -w"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
