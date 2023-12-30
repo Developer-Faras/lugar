@@ -22,6 +22,9 @@
         @apply left-0;
     }
 
+    .btn{
+        @apply flex items-center justify-center text-sm px-8 py-4 border-[2px] border-black font-roboto font-semibold; 
+    }
 }
 
 @layer utilities{
